@@ -66,7 +66,6 @@ class SearchInterface extends Component {
           //debugger;
           this.getNextMovies();
         }
-        console.log(event.target.scrollTop + event.target.clientHeight + 40, event.target.scrollHeight, event.target.scrollTop + event.target.clientHeight + 40 < event.target.scrollHeight);
       })
     }
   }
